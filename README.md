@@ -15,7 +15,7 @@ Install and link the module:
 
 `$ npm install inbrain-surveys-legacy --save`
 
-`$ react-native link inbrain-surveys`
+`$ react-native link inbrain-surveys-legacy`
 
 ### Extra steps iOS
 
