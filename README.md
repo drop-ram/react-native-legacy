@@ -28,11 +28,15 @@ Scroll down until you hit the ***Embedded Binaries*** section…
 
 Configure your info.plist as specified [here](https://github.com/inBrainSurveys/InBrainSurveys_SDK_Swift/blob/master/README.md#configuration)
 
-Add jitpack repository you your gradle configuration `android/build.gradle > allprojects > repositories
-    `maven { 
-        // Inbrain
-        url 'https://jitpack.io' 
-    }`
+### Extra steps Android
+Add jitpack repository you your gradle configuration (`android/build.gradle`)
+```
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+        ...
+```
 
 
 ## Usage
